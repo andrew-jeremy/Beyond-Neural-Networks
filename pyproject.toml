@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glwt-logic-machines"
+version = "0.1.0"
+description = "Neural-network-free Graph Laplacian Wavelet Transform learning and symbolic reasoning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.9",
+  "networkx>=3.0",
+  "scikit-learn>=1.2",
+  "pandas>=1.5",
+  "matplotlib>=3.6"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

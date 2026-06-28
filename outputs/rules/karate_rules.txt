@@ -1,0 +1,4 @@
+|--- mean_phi_s10p0 <= -0.00
+|   |--- class: 1
+|--- mean_phi_s10p0 >  -0.00
+|   |--- class: 0

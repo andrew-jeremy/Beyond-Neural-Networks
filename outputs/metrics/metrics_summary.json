@@ -1,0 +1,86 @@
+{
+  "dataset": "Zachary Karate Club (NetworkX)",
+  "algorithm": "Non-neural Graph Laplacian Wavelet Transform with soft shrinkage and symbolic rule induction",
+  "denoising": [
+    {
+      "mse_noisy": 0.09218411077639493,
+      "mse_glwt": 0.04939899137004621,
+      "mse_improvement_pct": 46.41268332037159,
+      "snr_noisy_db": 14.160882936635934,
+      "snr_glwt_db": 16.87026282848883,
+      "snr_gain_db": 2.7093798918528957,
+      "split": "train",
+      "num_signals": 144
+    },
+    {
+      "mse_noisy": 0.0878592257777736,
+      "mse_glwt": 0.04910866529345045,
+      "mse_improvement_pct": 44.1052833567379,
+      "snr_noisy_db": 13.908376042393606,
+      "snr_glwt_db": 16.434668453890218,
+      "snr_gain_db": 2.5262924114966125,
+      "split": "validation",
+      "num_signals": 48
+    },
+    {
+      "mse_noisy": 0.08880972634907688,
+      "mse_glwt": 0.05087385074718279,
+      "mse_improvement_pct": 42.71590191910146,
+      "snr_noisy_db": 14.459758666228604,
+      "snr_glwt_db": 16.879417869624277,
+      "snr_gain_db": 2.419659203395673,
+      "split": "test",
+      "num_signals": 48
+    }
+  ],
+  "classification": [
+    {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "split": "train",
+      "num_nodes": 17
+    },
+    {
+      "accuracy": 0.875,
+      "balanced_accuracy": 0.875,
+      "macro_f1": 0.873015873015873,
+      "split": "validation",
+      "num_nodes": 8
+    },
+    {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "split": "test",
+      "num_nodes": 9
+    }
+  ],
+  "selected_rule_depth": 1,
+  "selected_denoising_lambda_factor": 0.0,
+  "selected_scale_weights": [
+    2.987238854633206e-17,
+    1.3528644755250993e-16,
+    0.0,
+    0.9999999999999998,
+    0.0,
+    3.345303866697115e-17
+  ],
+  "denoising_scales": [
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0
+  ],
+  "denoising_kernel": "heat",
+  "classification_scales": [
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "classification_kernel": "mexican_hat"
+}

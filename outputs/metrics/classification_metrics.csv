@@ -1,0 +1,4 @@
+split,num_nodes,accuracy,balanced_accuracy,macro_f1
+train,17,1.0,1.0,1.0
+validation,8,0.875,0.875,0.873015873015873
+test,9,1.0,1.0,1.0
