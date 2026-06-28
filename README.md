@@ -118,4 +118,4 @@ The learned symbolic rule in this run is:
 
 Because Karate Club is a small graph, these classification values should be treated as a reproducibility smoke test rather than a claim of broad state-of-the-art performance.
 
-This repo is based on the following citation. Please cite this reference when using this repo in your work: https://www.researchgate.net/publication/399493876_Integrating_Quantum_Circuit_Reasoning_into_Large-Scale_Neurosymbolic_AI_Architectures?channel=doi&linkId=695d10c09aa6b4649dc89c42&showFulltext=true
+This repo is based on the following citation. Please cite this reference when using this repo in your work: https://github.com/andrew-jeremy/Beyond-Neural-Networks
